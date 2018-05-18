@@ -16,6 +16,9 @@ class D extends C
 {
 	
 }
+class E extends D
+{
+}
 public class Myclass {
 public static void main(String[] args) {
 	B b = new C();
@@ -33,6 +36,10 @@ public static void main(String[] args) {
 	}if(a instanceof D)
 	{
 		System.out.print("D");
+	}
+	if(a instanceof E)
+	{
+		System.out.print("E");
 	}
 }
 }
